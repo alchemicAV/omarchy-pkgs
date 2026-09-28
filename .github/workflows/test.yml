@@ -64,6 +64,7 @@ jobs:
               ./tests/controller.sh
               ./tests/artifact-helpers.sh
               ./tests/limine-mkinitcpio-hook.sh
+              ./tests/linux-firmware-parity.sh
               pacman -S --noconfirm --quiet rclone >/dev/null
               ./tests/publish-artifact.sh
             '
